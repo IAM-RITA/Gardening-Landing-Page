@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-container {
+    padding: 3rem 4rem;
+}
+
+.container-title {
+    text-align: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+
+.subtitle {
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 1.3rem;
+}
+
+
+
+/* HOMEPAGE */
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100vh;
+    padding: 3% 5% 3% 5%;
+
+    color: #fff;
+    font-size: 1.6rem;
+
+    background: linear-gradient(0deg, rgba(1, 27, 16, 0.65), rgba(1, 27, 16, 0.65)), url(Images/hero.jpg);
+    background-position: 80% 0%;
+    background-size: cover;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.fa-leaf {
+    font-size: 2.125rem;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+
+.about, .sign-in, .logo {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about {
+    font-size: 1.2rem;
+}
+
+.sign-in {
+    padding: 0.5em;
+    border-style: none;
+    border-radius: 0.3em;
+    background-color: #133A1B;
+    font-size: 1.2rem;
+    transition-duration: 0.5s;
+}
+
+.sign-in:hover {
+    background-color: #fff;
+    color: #133A1B;
+}
+
+.home-container {
+    margin-bottom: 12vh;
+}
+
+.home-title {
+    max-width: 800px;
+    font-size: 3.2rem;
+}
+
+.home-subtitle {
+    max-width: 700px;
+    font-size: 1.8rem;
+}
+
+.home-cta {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.cta-btn {
+    padding: 0.5em 0.75em;
+    border-style: none;
+    font-size: 1.75rem;
+    border-radius: 3em;
+    font-weight: 700;
+    color: #133A1B;
+    transition-duration: 0.5s;
+}
+
+.cta-btn:hover {
+    background-color: #011B10;
+    color: #fff;
+}
+
+
+
+/* FEATURES */
+.features {
+    background-color: #B7BF96;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.features-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features .title {
+    color: #133A1B;
+}
+
+.fa-tree, .fa-spa, .fa-snowflake {
+    font-size: 7rem;
+}
+
+.fa-tree, .fa-spa {
+    color: #133A1B;
+}
+
+.fa-snowflake {
+    color: #fff;
+}
+
+.feature {
+    margin-top: 2.5rem;
+    max-width: 80%;
+}
+
+.feature-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.feature-content {
+    margin: 0 auto;
+    max-width: 250px;
+    font-size: 1.1rem;
+}
+
+
+
+/* THEMES */
+.themes {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.themes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.theme {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+    padding: 7.5rem 1rem 1rem 1rem;
+    margin-top: 2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #fff;
+    transition-duration: 0.5s;
+}
+
+.theme:hover {
+    transform: scale(1.1);
+}
+
+.themes-container .one {
+    background: linear-gradient(0deg, rgba(19, 58, 27, 0.25), rgba(19, 58, 27, 0.25)), url(Images/theme-1.jpg);
+    background-position: 0% 48%;
+    background-size: cover;
+}
+
+.themes-container .two {
+    background: linear-gradient(0deg, rgba(19, 58, 27, 0.3), rgba(19, 58, 27, 0.3)), url(Images/theme-2.jpg);
+    background-position: 0% 48%;
+    background-size: cover;
+}
+
+.themes-container .three {
+    background: linear-gradient(0deg, rgba(19, 58, 27, 0.25), rgba(19, 58, 27, 0.25)), url(Images/theme-3.jpg);
+    background-position: 0% 48%;
+    background-size: cover;
+}
+
+
+
+/* TESTIMONIES */
+.testimonies {
+    background: #B7BF96;
+}
+
+.testimonies .title {
+    color: #133A1B;
+}
+
+.testimonies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.testimony {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.testimony-content {
+    font-style: italic;
+    max-width: 400px;
+}
+
+.testimony-image {
+    max-width: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.testimony-designation {
+    font-weight: 300;
+}
+
+
+
+/* FOOTER */
+
+
+
+
+
+
+
+/* BREAKPOINTS */
+@media (min-width: 800px) {
+    .founder {
+        color: #000;
+        background: #fff;
+        width: 50%;
+        padding: 7rem 2rem 7rem 2rem;
+    }
+    .founder-note-container {
+        display: flex;
+    }
+    .founder-image {
+        background: linear-gradient(0deg, rgba(19, 58, 27, 0.4), rgba(19, 58, 27, 0.4)), url(Images/founder.jpg);
+        background-position: 50% 50%;
+        background-size: cover;
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .features-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .feature {
+        width: 32%;
+    }
+
+    .themes-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .theme {
+        width: 32%;
+    }
+
+    .testimonies-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .testimony {
+        width: 49%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .founder-image {
+        background: linear-gradient(0deg, rgba(19, 58, 27, 0.4), rgba(19, 58, 27, 0.4)), url(Images/founder.jpg);
+        background-position: 50% 40%;
+        background-size: cover;
+    }
+
+}
