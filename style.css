@@ -296,11 +296,71 @@ a {
 
 /* FOOTER */
 
+.founder {
+    padding: 12rem 2rem 2rem 2rem;
+    background: linear-gradient(0deg, rgba(19, 58, 27, 0.4), rgba(19, 58, 27, 0.4)), url(Images/founder.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fff;
+}
 
+.founder-note {
+    margin: 0 auto;
+    max-width: 600px;
+}
 
+.founder-designation {
+    font-weight: 300;
+}
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #133A1B;
+}
 
+.footer-cta {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0rem 1.5rem 0rem;
+}
 
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem;
+}
+
+.footer-links {
+    max-width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-socmed-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.footer-link, .socmed-link {
+    margin: 0rem 0.5rem 0rem 0.5rem;
+}
 
 /* BREAKPOINTS */
 @media (min-width: 800px) {
